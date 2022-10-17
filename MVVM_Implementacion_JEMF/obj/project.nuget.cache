@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "zn7/y6pHeI1e6zbw/qeNsurE4XnpiXGSNcGptXwQoZuNM3U/TRoXorpDELd5JJP+X5nOKzQadZzLX6HbDUkjaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JUANM\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\JUANM\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\JUANM\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\JUANM\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\JUANM\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

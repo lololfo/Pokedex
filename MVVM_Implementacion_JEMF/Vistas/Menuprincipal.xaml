@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVM_Implementacion_JEMF.Vistas.Menuprincipal">
+    <Grid>
+        <CollectionView ItemsSource="{Binding listaMenus}"
+                        VerticalOptions="Center"
+                        Margin="20,80,20,0"
+                        x:Name="listamenu">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="1" VerticalItemSpacing="20"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="15"
+                           BackgroundColor="#100E18">
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding Icono}" HeightRequest="100"/>
+                            <Label Text="{Binding Pagina}"
+                                   VerticalOptions="Center"
+                                   FontSize="20"
+                                   FontAttributes="Bold"/>
+
+                        </StackLayout>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Path= BindingContext.NavegarCommand, Source={x:Reference listamenu}}" 
+                                                  CommandParameter="{Binding .}"/>
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
