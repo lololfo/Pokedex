@@ -52,7 +52,7 @@ namespace MVVM_Implementacion_JEMF.VistaModelo
                     Icono = "https://i.ibb.co/gvpcDWw/pescado.png"
                 },
                 new MenuPrincipal {
-                    Pagina = "Collection view sin enlace a base de datos",
+                    Pagina = "CollectionView sin enlace a base de datos",
                     Icono = "https://i.ibb.co/RSrm1rJ/pulpo.png"
                 },
                 new MenuPrincipal {

@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MVVM_Implementacion_JEMF.Vistas.Pagina"
              NavigationPage.HasNavigationBar="False">
+
     <Grid BackgroundColor="Aqua">
         <StackLayout VerticalOptions="Center">
             <StackLayout

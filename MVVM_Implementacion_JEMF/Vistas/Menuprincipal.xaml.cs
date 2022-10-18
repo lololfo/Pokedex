@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVVM_Implementacion_JEMF.VistaModelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace MVVM_Implementacion_JEMF.Vistas
         public Menuprincipal()
         {
             InitializeComponent();
+            BindingContext = new VMMenuPrincipal(Navigation);
         }
     }
 }

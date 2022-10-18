@@ -11,7 +11,7 @@ namespace MVVM_Implementacion_JEMF
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Pagina());
+            MainPage = new NavigationPage(new Menuprincipal());
         }
 
         protected override void OnStart()
