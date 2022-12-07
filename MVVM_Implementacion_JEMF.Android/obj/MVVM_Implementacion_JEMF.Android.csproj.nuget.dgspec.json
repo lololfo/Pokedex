@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.Android\\MVVM_Implementacion_JEMF.Android.csproj": {}
+    "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.Android\\MVVM_Implementacion_JEMF.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.Android\\MVVM_Implementacion_JEMF.Android.csproj": {
+    "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.Android\\MVVM_Implementacion_JEMF.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.Android\\MVVM_Implementacion_JEMF.Android.csproj",
+        "projectUniqueName": "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.Android\\MVVM_Implementacion_JEMF.Android.csproj",
         "projectName": "MVVM_Implementacion_JEMF.Android",
-        "projectPath": "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.Android\\MVVM_Implementacion_JEMF.Android.csproj",
-        "packagesPath": "C:\\Users\\JUANM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.Android\\obj\\",
+        "projectPath": "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.Android\\MVVM_Implementacion_JEMF.Android.csproj",
+        "packagesPath": "C:\\Users\\rodoe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JUANM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rodoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj": {
-                "projectPath": "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj"
+              "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj": {
+                "projectPath": "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "monoandroid12.0": {
           "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -54,20 +58,20 @@
         }
       }
     },
-    "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj": {
+    "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj",
+        "projectUniqueName": "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj",
         "projectName": "MVVM_Implementacion_JEMF",
-        "projectPath": "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj",
-        "packagesPath": "C:\\Users\\JUANM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JUANM\\source\\repos\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\obj\\",
+        "projectPath": "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF.csproj",
+        "packagesPath": "C:\\Users\\rodoe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodoe\\OneDrive\\Escritorio\\MVVM_Implementacion_JEMF\\MVVM_Implementacion_JEMF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JUANM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rodoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,6 +99,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -121,7 +129,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
